@@ -1,0 +1,3 @@
+# Important Points
+* Azure synapse analytics includes functionality for pipelines, data lakes and relational data warehouses
+
