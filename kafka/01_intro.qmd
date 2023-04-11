@@ -1,0 +1,6 @@
+# Kafka Introduction
+* Distributed message queue
+* Event / stream processing
+* Buffering messages
+* Decoupling of ingest and storage
+* Temporary store (Messages have TTL)

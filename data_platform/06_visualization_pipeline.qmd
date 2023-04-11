@@ -1,1 +1,15 @@
-# Visualization with Hive & Spark on Hadoop
+# Visualization 
+
+## Using Hive & Spark on Hadoop
+* The query from the BI tool goes to Hive Thirft
+* From Thrift it goes to Hive Data warehouse where schema is defined
+* The data files will be stored in HDFS/HBase
+* My query is fired, spark engine will process the data and shares the results
+* [Visualization with Hive on Hadoop](images/hive_on_hadoop.png)
+
+
+## Using Spark
+* From BI tool the query is sent to Thirft server
+* The query from the Thirft server is sent to spark engine
+* Spark will get the data from s3, process the data and share the results
+* ![Visualization with Spark](/images/spark_thrift.png)
