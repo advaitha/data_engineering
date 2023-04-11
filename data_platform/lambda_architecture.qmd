@@ -1,0 +1,4 @@
+# Lambda Architecture
+
+* We will have two paths in this architecture - stream and batch  
+![Lambda Architecture](/images/lambda_architecture.png)

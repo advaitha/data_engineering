@@ -1,0 +1,4 @@
+# Batch Pipleines
+* Job which gets scheduled
+* The data is taken from a store, processed and again sent to some storage
+  

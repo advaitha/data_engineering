@@ -1,0 +1,10 @@
+# Streaming
+* Buffer temporarily stores data and offers streaming functionality
+* Processing framework takes data from the buffer and process it (Ex. Spark,Storm)
+* From Processing FW data is stored in storage
+
+## Stream Analytics
+* Sees only small windows of data
+* Immediate processing
+* Quick and direct processing of data
+* The results from processing FW can again go back to another buffer or storage

@@ -1,24 +1,4 @@
-# Platform Blueprint
-
-* It consists of following components
-  * Connect
-    * API Gateways
-    * Data warehouse etc
-  * Store
-    * Big data
-    * Data warehouse etc
-  * Processing 
-    * Batch
-    * Stream
-  * Buffer
-    * Cache
-    * Message Queue
-  * Visualize
-
-![Platform blueprint](/images/platform_blueprint.png)
-
-
-## General End-to-End Pipeline
+# General End-to-End Pipeline
 Data -> API -> Buffer -> Processing Frameworks -> store -> Visualize
 
 
