@@ -1,0 +1,13 @@
+# Topics, Partitions and Brokers
+
+* The topics are partitioned
+* Partitions will be feeding into brokers
+* There will be replication for brokers
+* ![Topics, Partitions and Brokers](/images/topics_partitions.png)
+
+
+## Zookeeper
+* The long term for Kafka is to get rid of the zookeeper
+* Earlier zookeeper used to manage the offsets, now brokers manage the offsets
+* Kafka and Zookeeper are from two different systems
+* ![Jobs done by Zookeeper](/images/zoo_keeper.png)

@@ -1,3 +1,4 @@
 # Kafka Resources
 
 * [Kafka Documentation](https://kafka.apache.org/documentation/)
+* [Kafka zookeeper](https://zookeeper.apache.org/)

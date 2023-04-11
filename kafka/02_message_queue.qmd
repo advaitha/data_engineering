@@ -1,0 +1,10 @@
+# Message Queue Basics
+
+* ![How Message Queue works](/images/message_queues.png)
+* We will have multiple queues like the above one between producers and consumers
+* Order of message cosumption
+* Three types of Guarantees
+  * Exactly once
+  * Atleast once
+  * Atmost once
+
