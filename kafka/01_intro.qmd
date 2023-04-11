@@ -4,3 +4,20 @@
 * Buffering messages
 * Decoupling of ingest and storage
 * Temporary store (Messages have TTL)
+
+
+## How Kafka Works
+* Topics - We can setup many topics
+  * Partitions 
+  * In sync replicas - For redundancy
+* Messages
+  * Key
+  * Message
+  * Max size - Ideally smaller messages
+  * Messages will be in binary format
+* Brokers
+  * Handle the data on the machines
+* Producers
+  * Sending the messages to the brokers
+* Consumers and Consumer groups
+  * Consume the data from the brokers
