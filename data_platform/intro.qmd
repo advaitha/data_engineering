@@ -1,0 +1,39 @@
+# Platform Blueprint
+
+* It consists of following components
+  * Connect
+    * API Gateways
+    * Data warehouse etc
+  * Store
+    * Big data
+    * Data warehouse etc
+  * Processing 
+    * Batch
+    * Stream
+  * Buffer
+    * Cache
+    * Message Queue
+  * Visualize
+
+![Platform blueprint](/images/platform_blueprint.png)
+
+
+## General End-to-End Pipeline
+Data -> API -> Buffer -> Processing Frameworks -> store -> Visualize
+
+
+## Data Ingestion Pipelines
+* Either push or pull
+
+### Push
+* Data source is sending / Pushing the data 
+* Data source can create APIs to push the data to destination
+* The format of the data can be JSON. We can have tests on JSON data to check data quality
+* The destination can take this data and send it to buffer or store it for processing
+* If API design is not feasible then the data can be sent to buffer and processed from there
+
+
+### Pull
+* We have to pull the data from the source
+* A connector is need to pull the data
+* The connector (like Airflow, Azure datafactory etc.) will pull the data from source and will send it to buffer or data store
