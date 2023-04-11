@@ -1,0 +1,7 @@
+# Resources
+* [Data Engineering Learning Resources](https://dataengineering.wiki/Learning+Resources)
+
+
+## History of Data Engineering
+* [Data Engineering History](https://learn.panoply.io/hubfs/Data%20Engineering%20-%20Introduction%20and%20Epochs.pdf)
+* [On the evolution of Data Engineering](https://medium.com/analytics-and-data/on-the-evolution-of-data-engineering-c5e56d273e37)

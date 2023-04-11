@@ -1,0 +1,48 @@
+# Data Modeling
+
+* An abstraction that organizes elements of data and how they will relate to each other
+
+## Data Modeling Steps
+* Process to support business and user applications
+* Requirement Gathering
+* Conceptual data model
+* Logical data model
+* Physical data model
+
+## Relational Databases
+* Organizes data into tables each representing an entity
+* Unique row identifying each row
+
+### When to use RDBMS
+* Flexibility for writing sql queries
+* Ability to do joins
+* Aggregations and analytics
+* Smaller data volumes
+* Easier to change business requirements
+* Felxibility for queries
+* Modeling the data and not modeling queries
+* secondary Indexes available
+* ACID transactions - data integrity
+
+### ACID Properties
+* Atomicity - Processing the whole transaction or nothing is processed. Example - Bank money transaction
+* Consistency - Transactions to abide by rules and constraints
+* Isolation - Transactions are processed independently and securely, order does not matter. 
+* Durability - Completed transactions are saved to database even in cases of system failure. 
+
+### When not to use RDBMS
+* Have large amounts of data
+* Need to store different data type formats
+* Need high throughput -- fast reads
+* Need a flexible schema 
+* Need high availability 
+* Need horizontal scability
+
+### PostgreSQL
+* object-relational database system
+* [Psycopg2 Tutorial](https://pynative.com/python-postgresql-tutorial/)
+
+
+
+
+## Non-relational databases
