@@ -1,0 +1,7 @@
+# Use Cases
+
+## Ingestion Pipeline
+
+![Ingestion Pipeline](/home/thulasiram/personal/data_engineering/images/kafka_ingestion_pipeline.png)
+
+
