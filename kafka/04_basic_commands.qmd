@@ -1,0 +1,28 @@
+# Basic Kafka Commands
+
+## Create Topic
+```bash
+./kafka-topics.sh --create --topic mytesttopic --bootstrap-server localhost:9092
+```
+
+## List Topic
+```bash
+./kafka-topics.sh --list --bootstrap-server localhost:9092
+```
+
+## Describe a topic
+```bash
+./kafka-topics.sh --describe --topic mytesttopic --bootstrap-server localhost:9092
+```
+
+```bash
+./kafka-console-consumer.sh --topic mytesttopic --bootstrap-server localhost:9092
+```
+
+## Check consumer offset
+```bash
+./kafka-consumer-groups.sh --bootstrap-server localhost:9902 --describe --group mypythonconsumer
+```
+
+
+
