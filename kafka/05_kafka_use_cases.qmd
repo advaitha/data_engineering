@@ -1,7 +1,21 @@
 # Use Cases
 
 ## Ingestion Pipeline
+* In the below architecture any API can write to any kafka broker
 
 ![Ingestion Pipeline](/home/thulasiram/personal/data_engineering/images/kafka_ingestion_pipeline.png)
+
+
+## Multiple Processing as Consumers
+* In the below architecture we have multiple processers using the data in queue for different purpose 
+* This can be used in real time use cases
+![Multiple processers consuming from the broker](/images/kafka_multiple_processing.png)
+
+
+## Multistage Stream Processing
+* Can be used for multi stage stream processing
+![Multistage stream processing](/images/kafka_multistage_processing.png)
+
+
 
 
