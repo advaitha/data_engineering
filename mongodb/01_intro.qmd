@@ -4,4 +4,21 @@
 * Partitions by key  
 * Sharding - Distribute the partition into different shards
 * collections - They are like buckets
-* 
+* We need to manually set the index in MongoDB
+  
+  ## Schema Design
+  * We need to be aware of how will be querying the data before going for a schema design
+  
+  ## Basic Commands
+
+
+
+
+
+
+
+
+
+
+  ## References
+  * [Mongo Cheatsheet](https://gist.github.com/michaeltreat/d3bdc989b54cff969df86484e091fd0c)
