@@ -6,19 +6,19 @@
 * collections - They are like buckets
 * We need to manually set the index in MongoDB
   
-  ## Schema Design
-  * We need to be aware of how will be querying the data before going for a schema design
+## Schema Design
+* We need to be aware of how will be querying the data before going for a schema design
+   
+
+## Tools
+* pymongo is a package to interact with MongoDB using Python
+* Mango Express - web UI
   
-  ## Basic Commands
 
-
-
-
-
-
-
-
-
-
-  ## References
-  * [Mongo Cheatsheet](https://gist.github.com/michaeltreat/d3bdc989b54cff969df86484e091fd0c)
+## Using MongoDB in data platform
+* ![Using MangoDB in data platform](/images/mongo_data_platform.png)
+  
+## References
+* [Mongo Cheatsheet](https://gist.github.com/michaeltreat/d3bdc989b54cff969df86484e091fd0c)
+* [Mongo Docker](https://hub.docker.com/_/mongo)
+* [Mongo Express Docker](https://hub.docker.com/_/mongo-express)
