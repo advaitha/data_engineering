@@ -1,0 +1,7 @@
+# Introduction
+* Document can consist of sub-documents or array of sub-documents
+* We can have an index for a field in the document
+* Partitions by key  
+* Sharding - Distribute the partition into different shards
+* collections - They are like buckets
+* 
