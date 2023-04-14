@@ -1,0 +1,24 @@
+# Books to read
+* Data engineering with Python
+* Building Real-Time Analytics Systems
+* Grokking streaming systems
+* Data Engineering on Azure
+* Kafka:Definitive Guide (2nd edition)
+* Data Pipelines with Apache Airflow
+* Azure Data Engineering Cookbook
+* Fundamentals of Data Engineering
+* Data pipelines pocket reference
+* Designing data intensive applications
+* SQL for Data Analysis
+* Machine learning Engineering in Action
+* Building data pipelines
+* The Enterprise Data Catalog
+* Practical Data Privacy
+* Learning Azure Synapse Analytics
+* Data Management at scale
+* Data Quality Fundamentals
+* 
+
+## LAB
+* Build a robust data pipeline: Transforming data with dbt
+* Building robust data pipelines with dbt, Airflow and Great Expectations

@@ -1,6 +1,0 @@
-# Books to read
-
-* Definitive Kafka
-* Building data intensive applications
-* Data engineering with Python
-* Building data pipelines
