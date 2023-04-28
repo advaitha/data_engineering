@@ -1,0 +1,23 @@
+# Introduction to Apache Spark
+* Apache spark is a unified analytics engine
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## References:-
+* [Spark Documentation](https://spark.apache.org/docs/3.4.0/)
