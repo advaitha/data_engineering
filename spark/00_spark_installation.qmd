@@ -55,6 +55,9 @@ ls
 conda create -n spark_learn python==3.10
 conda activate spark_learn
 pip install pyspark
+pip install pyspark[sql]
+pip install pyspark[pandas_on_spark] plotly
+pip install pyspark[connect]
 pyspark
 spark.version
 ```
